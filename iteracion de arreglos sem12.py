@@ -125,4 +125,4 @@ for ciudad_idx, ciudad in enumerate(temperaturas):
     for semana_idx, semana in enumerate(ciudad):
         suma_temperaturas = sum([dia["temp"] for dia in semana])
         promedio = suma_temperaturas / len(semana)
-        print(f"La temperatura en la semana {semana_idx + 1}, en la ciudad de {ciudades[ciudad_idx]} fue de un promedio de {promedio:.2f} grados Celsius")
+        print(f"La temperatura de la semana {semana_idx + 1}, en la ciudad de {ciudades[ciudad_idx]} fue de un promedio de {promedio:.2f} grados Celsius")
